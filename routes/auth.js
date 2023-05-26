@@ -6,9 +6,9 @@ const { Jwt_secret } = require('../key')
 const mongoose = require('mongoose')
 const User = mongoose.model('User')
 
-// router.get('/', (req, res) => {
-//   res.send('Muhammadqodir')
-// })
+router.get('/', (req, res) => {
+  res.send('Muhammadqodir')
+})
 
 router.post('/register', async (req, res) => {
   try {
